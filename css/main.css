@@ -1,0 +1,718 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	border: solid 2px red;
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	border: solid 2px green;
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+}
+
+.top_header{
+	background-image: url(../img/background.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;
+	min-height: 612px;
+	position: relative;
+
+
+}
+
+.header_topline{
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+}	
+
+.logo{
+	text-decoration: none;
+	float: left;
+}
+
+.logo strong {
+	color: #000;
+	font-family: "CuprumBold";
+	text-transform: uppercase;
+	font-size: 38px;
+	line-height: 46px;
+}
+
+.logo span{
+	color: #898888;
+	font-family: "CuprumRegular";
+	font-size: 24px;
+}
+
+.phone {
+	color: #898888;
+	display: inline-block;
+	font-size: 16px;
+	margin-top: 11px;
+	margin-left: 35px;
+
+}
+
+.phone span{
+	font-family: "RobotoLight";
+	padding-left: 5px;
+	font-style: italic;
+}
+
+.fa {
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+}
+
+.navi {
+	float: right;
+	line-height: 12px;
+	position: relative;
+}
+
+.navi ul{
+	list-style-type: none;
+}
+
+
+.navi ul li{
+	display: inline-block;
+	
+
+}
+
+.navi ul li a{
+	color: #000;
+	padding-left: 25px;
+	-webkit-transition: all .25s;
+	-o-transition: all .25s;
+	transition: all .25s;
+}
+
+.navi ul li a:hover{
+	color: #898888;
+	text-decoration: underline ;
+}
+
+.nav_bar_button{
+	background-color: transparent;
+	border: none;
+	float: right;
+	font-size: 34px;
+	padding-top: 6px;
+	-webkit-transition: all .25s;
+	-o-transition: all .25s;
+	transition: all .25s;
+	outline: none;
+}
+
+.nav_bar_button:hover{
+	color: #898888;
+}
+
+
+.nav_bar_button:active{
+	color: #636363;
+}
+
+
+
+
+.order{
+	top: 36px;
+	position: absolute;
+	width: 100%;
+
+}
+
+.item_order h1{
+	color: #fff;
+	text-transform: uppercase;
+	font-family: "RobotoCondensedLight";
+	text-align: center;
+	font-size: 67px;
+	line-height: 5px;
+}
+
+.order_home{
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	text-align: center;
+	width: 100%;
+}
+
+.order_home strong {
+	font-family: "RobotoCondensedLight";
+	color: #fff;
+	font-size: 26px;
+	line-height: 60px;
+}
+
+.item_order .button {
+	font-family: "RobotoRegular";
+	font-size: 18px;
+	background-color: #ff9000;
+	border: medium none;
+	border-radius: 5px;
+	color: #fff;
+	display: block;
+	position: relative;
+	padding: 15px;
+	text-transform: uppercase;
+	text-align: center;
+	top: 30px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.item_order .button:hover{
+	background-color: #ffa736;
+	text-decoration: underline;
+}
+
+.item_order .button:active{
+	background-color: #e38000;
+	text-decoration: underline;
+}
+
+.item_order{
+	margin-top: 195px;
+}
+
+.t_mass_item{
+	border-bottom: 1px solid #898888;
+	text-align: center;
+	margin-top: 61px;
+}
+
+.t_mass_item h2{
+	color: #000;
+	font-family: "RobotoCondensedLight";
+	text-transform: uppercase;
+	font-size: 28px;
+	line-height: 10px;
+}
+
+.slider_container{
+	margin-top: 25px;
+	text-align: center;
+	padding-bottom: 50px;
+	position: relative;
+}
+
+.carousel {
+	width: 90%;
+	margin: auto;
+}
+
+.carousel .item{
+	margin: 10px;
+	border-radius: 5px;
+
+
+
+}
+
+.carousel .item:hover{
+	box-shadow: rgba(0,0,0,0.5) 0 0 20px;
+}
+
+.carousel .item .one_type_of_massage{
+	color: #000;
+	display: block;
+	width: 100%;
+	padding: 15px;
+	
+}
+
+.prev_button, .next_button{
+	color: #898888;
+	font-size: 65px;
+	top: 35%;
+	position: absolute;
+	cursor: pointer;
+	z-index: 5;
+}
+
+.prev_button:hover, .next_button:hover{
+	color: #aaaaaa;
+}
+
+.prev_button{
+	left: 0;
+}
+
+.next_button{
+	right: 0;
+}
+
+.one_type_of_massage img{
+	width: 100%;
+}
+
+.one_type_of_massage h3{
+	float: left;
+	font-size: 20px;
+	font-family:"RobotoCondensedBold" ;
+	margin-top: 15px;
+	margin-bottom: 0;
+	line-height: 45px;
+}
+
+.one_type_of_massage p{
+	display: inline-block;
+	margin: 0;
+	text-align: left;
+	font-family: "RobotoRegular";
+	font-size: 14px;
+}
+
+.about_me{
+	background-image: url(../img/about_massagist.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;
+	min-height: 528px;
+	position: relative;
+	
+}
+
+
+.t_mass_about{
+	border-bottom: 1px solid #fff;
+	text-align: center;
+	margin-top: 61px;
+}
+
+.t_mass_about h2{
+	color: #fff;
+	font-family: "RobotoCondensedLight";
+	text-transform: uppercase;
+	font-size: 28px;
+	line-height: 10px;
+}
+
+.about_me_container{
+	margin-top: 40px;
+	text-align: center;
+	position: relative;
+	
+}
+
+.about_me_container img{
+	border-radius: 10em;
+	box-shadow: rgba(0,0,0,0.5) -5px 5px 20px;
+	position: absolute;
+	left: 0;
+
+}
+
+.massagist_inform{
+	background-color: rgba(255,255,255,.72);
+	border-radius: 5px;
+	margin-top: 20px;
+	width: 90%;
+	display: inline-block;
+	float: right;
+	max-height: 168px;
+	overflow:auto;
+}
+
+.massagist_inform p{
+	width: 85%;
+	float: right;
+	text-align: left;
+	font-family: "RobotoRegular";
+	font-size: 14px;
+	padding-right: 20px; 
+
+}
+
+
+.name_mas{
+	
+	margin-left: 250px;
+	text-align: left;
+	margin-top: 20px;
+
+}
+
+.name_mas h3{
+	font-size: 20px;
+	font-family:"RobotoCondensedBold" ;
+	color: #fff;
+	margin: 0;
+}
+
+.cert_mass {
+	border-top: 1px solid #fff;
+	width: 235px;
+}
+
+.name_mas span{
+	color: #fff;
+}
+
+.aboutme_button {
+	font-family: "RobotoRegular";
+	font-size: 18px;
+	background-color: #ff9000;
+	border-radius: 5px;
+	color: #fff;
+	padding: 15px;
+	text-transform: uppercase;
+	text-align: center;
+	display: inline-block;
+	float: right;
+	margin-top: 30px;
+	width: 200px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+}
+
+.aboutme_button:hover{
+	background-color: #ffa736;
+	text-decoration: underline;
+}
+
+.aboutme_button:active{
+	background-color: #e38000;
+	text-decoration: underline;
+}
+
+
+.reviews_item{
+	border-bottom: 1px solid #898888;
+	text-align: center;
+	margin-top: 61px;
+}
+
+.reviews_item h2{
+	color: #000;
+	font-family: "RobotoCondensedLight";
+	text-transform: uppercase;
+	font-size: 28px;
+	line-height: 10px;
+}
+
+.slider_container2{
+	margin-top: 25px;
+	text-align: center;
+	padding-bottom: 20px;
+	position: relative;
+}
+
+.slider {
+	width: 90%;
+	margin: auto;
+	
+}
+
+
+.slider .item{
+	margin: 10px;
+	
+
+
+}
+
+.one_of_reviews{
+	color: #000;
+	display: inline-block;
+	width: 100%;
+	padding: 15px 45px;
+	
+	
+}
+
+.one_of_reviews img{
+	float: left;
+	border-radius: 10em;
+	box-shadow: rgba(0,0,0,0.5) -5px 5px 20px;
+
+}
+
+.one_of_reviews h3{
+	float: left;
+	font-size: 20px;
+	font-family:"RobotoCondensedBold" ;
+	margin-top: 15px;
+	margin-bottom: 0;
+	margin-left: 10px;
+	line-height: 45px;
+}
+
+.one_of_reviews span{
+	font-style: italic;
+	color: #898888;
+	font-size: 14px;
+	font-family: "RobotoLight";
+}
+
+.one_of_reviews p{
+	
+	width: 78%;
+	float: right;
+	margin: 0;
+	text-align: left;
+	font-family: "RobotoRegular";
+	font-size: 14px;
+
+}
+
+
+
+.pred_button, .nast_button{
+	color: #898888;
+	font-size: 65px;
+	top: 25%;
+	position: absolute;
+	cursor: pointer;
+	z-index: 5;
+}
+
+.pred_button:hover, .nast_button:hover{
+	color: #aaaaaa;
+}
+
+.pred_button{
+	left: 0;
+}
+
+.nast_button{
+	right: 0;
+}
+
+.reviews_button {
+	font-family: "RobotoRegular";
+	font-size: 18px;
+	background-color: #ff9000;
+	border-radius: 5px;
+	color: #fff;
+	padding: 15px;
+	text-transform: uppercase;
+	text-align: center;
+	display: inline-block;
+	float: right;
+	margin-bottom: 60px;
+	width: 200px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+}
+
+.reviews_button:hover{
+	background-color: #ffa736;
+	text-decoration: underline;
+}
+
+.reviews_button:active{
+	background-color: #e38000;
+	text-decoration: underline;
+}
+
+
+.how_work_item{
+	border-bottom: 1px solid #fff;
+	text-align: center;
+	margin-top: 61px;
+}
+
+.how_work_item h2{
+	color: #fff;
+	font-family: "RobotoCondensedLight";
+	text-transform: uppercase;
+	font-size: 28px;
+	line-height: 10px;
+	width: 100%;
+}
+
+
+.how_working{
+	background-image: url(../img/how_work.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;
+	min-height: 476px;
+	position: relative;
+	text-align: center;
+}
+
+.all_working{
+	margin-top:20px;
+}
+
+.wrap{
+	color: #fff;
+	text-align: center;
+	max-width: 180px;
+	display: inline-block;
+	margin-top: 50px;
+	margin-left: 10px;
+	margin-right: 10px;
+	vertical-align: middle;
+
+}
+
+.wrap span{
+	font-size: 48px;
+	float: left;
+	line-height: 42px;
+	font-family: "RobotoCondensedLight";
+	margin-right: 10px;
+	display: none;
+}
+
+.wrap img {
+	padding-bottom: 20px;
+} 
+
+
+.last_logo{
+	font-size: 18px;
+	float: left;
+	line-height: 30px;
+}
+
+.last_logo strong {
+	color: #000;
+	font-family: "CuprumBold";
+	text-transform: uppercase;
+
+
+}
+
+.last_logo span{
+	color: #898888;
+	font-family: "CuprumRegular";
+	font-size: 14px;
+}
+
+
+.last_phone, .last_mail{
+	color: #898888;
+	display: inline-block;
+	font-size: 14px;
+	line-height: 30px;
+	padding-left: 30px;
+	float: right;
+}
+
+.last_phone span, .last_mail span{
+	font-family: "RobotoLight";
+	padding-left: 5px;
+	font-style: italic;
+}
+
+.hidden{
+	display: none;
+}
+
+.form_order_home h3{
+	text-align: center;
+	text-transform: uppercase;
+	padding: 10px 20px;
+}
+
+.form_order_home input[type="text"]{
+	display: block;
+	width: 90%;
+	margin: 0 auto 15px;
+	line-height: 26px;
+	outline: none;
+
+}
+
+
+
+.form_order_home .button{
+	outline: none;
+	font-family: "RobotoRegular";
+	font-size: 18px;
+	background-color: #ff9000;
+	border-radius: 5px;
+	color: #fff;
+	padding: 8px;
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+	margin: 25px auto 20px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	border: none;
+}
+
+.form_order_home .button:hover{
+	background-color: #ffa736;
+	text-decoration: underline;
+}
+
+.form_order_home .button:active{
+	background-color: #e38000;
+	text-decoration: underline;
+}
+
+.funcy_massage_class{
+	width: 400px;
+	padding: 15px;
+}
+
+.funcy_massage_class img{
+	width: 100%;
+}
+
+.about_me_fancy_div{
+	width: 500px;
+	padding: 15px;
+	text-align: center;
+}
+
+.about_me_fancy_div img{
+	border-radius: 10em;
+	box-shadow: rgba(0,0,0,0.5) -5px 5px 20px;
+}
+
+
+.name_mas_fancy h3{
+	font-size: 20px;
+	font-family:"RobotoCondensedBold" ;
+	color: #000;
+	margin: 20px 0 0;
+}
+
+.cert_mass_fancy {
+	border-top: 1px solid #000;
+	width: 235px;
+	display: block;
+	margin: auto;
+}
+
+.name_mas_fancy span{
+	color: #000;
+}
+
+.about_me_fancy_div p{
+	text-align: left;
+	font-family: "RobotoRegular";
+	font-size: 14px;
+}

@@ -1,0 +1,232 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+	.massagist_inform{
+		width: 89%;
+	}
+
+	.massagist_inform p{
+		width: 80%;
+	}
+
+	.one_of_reviews p{
+
+		width: 73%;
+
+	}
+
+	.wrap{
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+	.massagist_inform{
+		width: 85%;
+	}
+
+	.massagist_inform p{
+		width: 75%;
+	}
+
+	.one_of_reviews p{
+		width: 63%;
+	}
+
+	.wrap{
+		width: 125px;
+	}
+	
+	.work_icon{
+		width: 115px;
+	}
+
+	.arrow{
+		width: 50px;
+	}
+
+	
+
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+	.navi ul{
+		display: none;
+		position: absolute;
+		background-color: #fff;
+		top: 30px;
+		right: 0px;
+		padding: 5px 15px;
+	}
+
+	.navi ul li{
+		padding:10px 0;
+	}
+
+	.navi ul li a{
+		padding-left: 0;
+
+	}
+
+	.about_me_container{
+		margin-top: 20px;
+		text-align: center;
+	}
+
+	.about_me_container img{
+		position: relative;
+	}
+
+	.name_mas{
+		text-align: center;
+		margin:auto;
+		margin-top: 10px;
+	}
+
+	.cert_mass{
+		margin:auto;
+	}
+
+	.aboutme_button{
+		display: block;
+		float: inherit;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.one_of_reviews img{
+		float: none;
+		margin: auto;
+	}
+
+	.one_of_reviews h3{
+		float: none;
+	}
+	
+	.one_of_reviews p{
+		width: 100%;
+	}
+
+	.reviews_button {
+		display: block;
+		float: inherit;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.one_of_reviews {
+		padding: 15px 0;
+	}
+
+
+}
+
+
+@media only screen and (max-width : 720px){
+	.all_working img{
+		display: none;
+	}
+	.wrap{
+		display: block;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 35px;
+		text-align: left;
+	}
+
+	.wrap span{
+		display: inline-block;
+	}
+
+	.prev_button, .next_button, .pred_button, .nast_button{
+		font-size: 50px;
+	}
+
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.massagist_inform{
+		display: none;
+	}
+	
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 382px) {
+	.item_order h1 {
+		font-size: 50px;
+
+	}
+
+	.order_home strong {
+		font-size: 19px;
+	}
+
+	.item_order .button {
+		font-size: 15px;
+	}
+
+	.t_mass_item h2 {
+		font-size: 21px;
+	}
+
+	.reviews_item h2 {
+		font-size: 21px;
+	}
+	
+	.last_logo {
+  	float: none;
+    display: block;
+    text-align: center;
+}
+
+.last_phone, .last_mail {
+    display: block;
+    float: none;
+    text-align: center;
+    padding-left: 0;
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	.navi ul{
+		display: inline-block !important;
+		float: right:  !important;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
